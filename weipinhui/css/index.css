@@ -1,0 +1,131 @@
+body
+{
+	margin:0px;
+	font-family: "microsoft yahei";
+}
+
+p
+{
+	font-size: 14px;
+}
+#div1>img{
+	
+	width:100%;
+	
+}
+
+#div2
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#div2>img
+{
+	width:20%;
+}
+
+#div3>img
+{
+	width:100%;
+}
+
+#div3_1
+{
+	display: flex;
+	align-items: center;
+}
+
+#div3_1>img
+{
+	width:33%;
+}
+
+#div4>p
+{
+	text-align: center;
+}
+
+#div4>img
+{
+	width:100%;
+}
+
+#div4_1
+{
+	display: flex;
+	padding: 0px 10px;
+
+	justify-content: space-between;
+}
+
+#div4_1>div
+{
+	width:24%;
+}
+
+#div4_1>div>img
+{
+	width:100%;
+}
+
+.bg_pink
+{
+	background-color: rgb(222, 61, 150);
+	color:white;
+	font-weight: bold;
+	padding:3px;
+}
+
+.color_gray
+{
+	color:rgb(152, 152, 159);
+}
+
+#div5
+{
+	background-color: #F3F4F6;
+	padding:0px 20px;
+}
+
+#div5>img
+{
+	width:100%;
+}
+
+.card
+{
+	background-color: white;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom:10px;
+}
+
+.card>img
+{
+	width:100%;
+}
+
+
+
+
+.card>p:first-of-type
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.color_pink
+{
+	color:rgb(222, 61, 150);
+	font-weight: bold;
+}
+
+.bg_black
+{
+	background-color: black;
+	color:white;
+	font-weight: bold;
+	padding:0px 2px;
+}
